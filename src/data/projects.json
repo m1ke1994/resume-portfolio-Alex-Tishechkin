@@ -74,33 +74,6 @@
     "Подключил Tailwind CSS и @nuxt/ui для чистого адаптивного UI.",
     "Сделал формы с базовой валидацией и локальным состоянием."
   ]
-},
-
-{
-  "slug": "ares-site",
-  "title": "Ares-Site",
-  "summary": "Коммерческий фронтенд-проект с адаптивным интерфейсом и чистой архитектурой.",
-  "description": "Проект разработан на Vue 3, Vite и Tailwind CSS. Создан современный, визуально выразительный и отзывчивый интерфейс с упором на UX, производительность и переиспользуемость компонентов.",
-  "stack": ["Vue 3", "Vite", "Tailwind CSS", "Pinia", "TypeScript"],
-  "tags": ["Commercial", "SPA", "Frontend"],
-  "previewUrl": "https://project-site-tau.vercel.app/",
-  "repoUrl": "https://github.com/m1ke1994/Ares-Site",
-  "cover": "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen1.PNG",
-  "gallery": [
-     "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen1.PNG",
-      "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen.PNG",
-      "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen2.PNG",
-       "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen3.PNG",
-        "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen4.PNG",
-         "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen6.PNG",
-          "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen7.PNG",
-           "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen8.PNG"
-  ],
-  "learned": [
-    "Отработал проектирование адаптивных интерфейсов и компонентную структуру.",
-    "Оптимизировал сборку и загрузку для продакшена через Vite.",
-    "Проработал принципы визуальной иерархии и согласованности UI."
-  ]
 }
 
   ]
