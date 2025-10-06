@@ -1,0 +1,97 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  body {
+    @apply font-sans bg-surface text-base-content antialiased;
+  }
+
+  .dark body {
+    @apply bg-surface-dark text-slate-100;
+  }
+
+  a {
+    @apply text-accent transition-colors;
+  }
+
+  a:hover {
+    @apply text-accent-muted;
+  }
+}
+
+@layer components {
+  .layout-grid {
+    @apply grid gap-6 md:grid-cols-[320px,1fr];
+  }
+
+  .resume-section {
+    @apply bg-white shadow-card rounded-2xl p-6 dark:bg-neutral-900 dark:shadow-none;
+  }
+
+  .sidebar-section {
+    @apply mt-6 first:mt-0;
+  }
+
+  .sidebar-title {
+    @apply text-sm uppercase tracking-widest text-slate-300 dark:text-slate-200 mb-3;
+  }
+
+  .timeline::before {
+    content: '';
+    @apply absolute left-3 top-0 h-full w-px bg-slate-200 dark:bg-slate-700;
+  }
+
+  .timeline-item::before {
+    content: '';
+    @apply absolute left-0 top-2 h-2 w-2 -translate-x-1/2 rounded-full border-2 border-white bg-accent dark:border-neutral-900;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-accent-muted focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) body {
+    @apply bg-surface-dark text-slate-100;
+  }
+}
+
+@media print {
+  body {
+    @apply bg-white text-black;
+  }
+
+  #app {
+    @apply max-w-none;
+  }
+
+  nav,
+  .filter-bar,
+  .theme-toggle,
+  .print-hidden {
+    display: none !important;
+  }
+
+  .layout-grid {
+    display: block;
+  }
+
+  .resume-section,
+  .sidebar,
+  .sidebar-section {
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+
+  .timeline::before,
+  .timeline-item::before {
+    background: #000 !important;
+    border-color: #fff !important;
+  }
+}

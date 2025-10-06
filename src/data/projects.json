@@ -1,0 +1,107 @@
+﻿{
+  "projects": [
+    {
+  "slug": "smartphones-showcase",
+  "title": "Витрина смартфонов (только фронтенд)",
+  "summary": "Демонстрационный фронтенд-проект витрины смартфонов на Vue 3 с локальными мок-данными и имитацией заказов.",
+  "description": "Проект представляет собой SPA-приложение на Vue 3 и Vite, демонстрирующее витрину смартфонов. В нём реализованы каталог с фильтрацией по бренду и поиском по модели, избранное и корзина с локальным хранением данных, а также оформление заказа с генерацией номера и журналом заказов. Все данные загружаются из моков и сохраняются в localStorage, без использования внешнего API или сервера. Проект создан как портфолио-кейс для демонстрации навыков фронтенд-разработки, работы с состоянием и интерфейсами.",
+  "stack": ["Vue 3", "Vite", "Tailwind CSS", "Vue Router", "localStorage"],
+  "tags": ["Portfolio", "SPA", "Frontend", "E-commerce"],
+  "previewUrl": "https://test-eight-weld-74.vercel.app/",
+  "repoUrl": "https://github.com/m1ke1994/test",
+  "cover": "https://raw.githubusercontent.com/m1ke1994/test/main/front/public/images-screen/screen1.PNG",
+  "gallery": [
+    "https://raw.githubusercontent.com/m1ke1994/test/main/front/public/images-screen/screen1.PNG",
+     "https://raw.githubusercontent.com/m1ke1994/test/main/front/public/images-screen/screen2.PNG",
+      "https://raw.githubusercontent.com/m1ke1994/test/main/front/public/images-screen/screen3.PNG",
+       "https://raw.githubusercontent.com/m1ke1994/test/main/front/public/images-screen/screen4.PNG",
+        "https://raw.githubusercontent.com/m1ke1994/test/main/front/public/images-screen/screen5.PNG",
+         "https://raw.githubusercontent.com/m1ke1994/test/main/front/public/images-screen/screen6.PNG"
+         
+  ],
+  "learned": [
+    "Реализовал клиентское SPA без бэкенда с полной симуляцией заказов.",
+    "Создал каталог товаров с фильтрацией, поиском и избранным.",
+    "Настроил хранение состояния и заказов в localStorage.",
+    "Оптимизировал структуру проекта и сборку через Vite.",
+    "Оформил интерфейс с использованием Tailwind CSS."
+  ]
+}
+,
+    {
+  "slug": "quasar-points-network",
+  "title": "Управление сетью точек (Quasar Test)",
+  "summary": "SPA на Vue 3 + Quasar для работы с 10 000 точек: виртуальный список, карта на maptalks, CRUD и локальное состояние.",
+  "description": "Небольшое, но шустрое SPA, демонстрирующее работу с большим набором данных (10 000 точек): постепенная генерация с индикатором загрузки, виртуальный список (QVirtualScroll) с поиском и массовыми действиями, синхронизированная карта на maptalks с кастомными маркерами, а также CRUD-операции (создание, редактирование, удаление) с валидацией и мгновенными обновлениями в Pinia и localStorage. Для межкомпонентной коммуникации использован лёгкий event-bus на mitt. Проект задуман как портфолио-кейс на Quasar с упором на производительность фронтенда и удобство UI.",
+  "stack": ["Vue 3", "Quasar", "Vite", "Pinia", "Tailwind CSS", "maptalks", "mitt", "JavaScript"],
+  "tags": ["Portfolio", "SPA", "Frontend", "DataViz", "Maps"],
+  "previewUrl": "https://quasar-test-gamma.vercel.app/#/",
+  "repoUrl": "https://github.com/m1ke1994/frontend-quasar",
+  "cover": "https://raw.githubusercontent.com/m1ke1994/frontend-quasar/main/public/images-screen/screen1.PNG",
+  "gallery": [
+    "https://raw.githubusercontent.com/m1ke1994/frontend-quasar/main/public/images-screen/screen1.PNG",
+     "https://raw.githubusercontent.com/m1ke1994/frontend-quasar/main/public/images-screen/screen2.PNG", 
+      "https://raw.githubusercontent.com/m1ke1994/frontend-quasar/main/public/images-screen/screen3.PNG",
+      "https://raw.githubusercontent.com/m1ke1994/frontend-quasar/main/public/images-screen/screen4.PNG"
+  ],
+  "learned": [
+    "Оптимизировал рендеринг больших списков через QVirtualScroll и ленивую генерацию данных.",
+    "Синхронизировал карту maptalks с состоянием Pinia и быстрым обновлением слоя маркеров.",
+    "Реализовал CRUD с валидацией и устойчивым хранением (Pinia + localStorage).",
+    "Внедрил mitt как лёгкую глобальную шину событий для декуплинга компонентов.",
+    "Отточил конфигурацию Quasar/Vite и Tailwind-классов для быстрого и стабильного UI."
+  ]
+}
+,
+{
+  "slug": "skiing-school",
+  "title": "Skiing — витрина горнолыжной школы",
+  "summary": "Демонстрационный лендинг и внутренние страницы горнолыжной школы с каталогами курсов, корзиной и админ-панелью.",
+  "description": "Лендинг и внутренние представления школы горных лыж и сноуборда: каталоги курсов, расписание туров, витрина экипировки, модальные формы заявок. Админ-раздел с CRUD для поездок и просмотром заявок. Всё работает на моковых данных в Pinia без backend — удобно для портфолио и дальнейшего подключения API.",
+  "stack": ["Nuxt 3", "Vue 3", "Vite", "Pinia", "Tailwind CSS", "@nuxt/ui"],
+  "tags": ["Portfolio", "SPA", "Landing", "Frontend"],
+  "previewUrl": "https://skiing-frontend.vercel.app/",
+  "repoUrl": "https://github.com/m1ke1994/skiing-frontend",
+  "cover": "https://raw.githubusercontent.com/m1ke1994/skiing-frontend/main/public/images-screen/screen1.PNG",
+  "gallery": [
+    "https://raw.githubusercontent.com/m1ke1994/skiing-frontend/main/public/images-screen/screen1.PNG",
+    "https://raw.githubusercontent.com/m1ke1994/skiing-frontend/main/public/images-screen/screen2.PNG",
+    "https://raw.githubusercontent.com/m1ke1994/skiing-frontend/main/public/images-screen/screen6.PNG"
+  ],
+  "learned": [
+    "Построил SPA без backend на базе Pinia и мок-данных.",
+    "Спроектировал компонентную структуру Nuxt 3 (курсы, корзина, расписание, админка).",
+    "Подключил Tailwind CSS и @nuxt/ui для чистого адаптивного UI.",
+    "Сделал формы с базовой валидацией и локальным состоянием."
+  ]
+},
+
+{
+  "slug": "ares-site",
+  "title": "Ares-Site",
+  "summary": "Коммерческий фронтенд-проект с адаптивным интерфейсом и чистой архитектурой.",
+  "description": "Проект разработан на Vue 3, Vite и Tailwind CSS. Создан современный, визуально выразительный и отзывчивый интерфейс с упором на UX, производительность и переиспользуемость компонентов.",
+  "stack": ["Vue 3", "Vite", "Tailwind CSS", "Pinia", "TypeScript"],
+  "tags": ["Commercial", "SPA", "Frontend"],
+  "previewUrl": "https://project-site-tau.vercel.app/",
+  "repoUrl": "https://github.com/m1ke1994/Ares-Site",
+  "cover": "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen1.PNG",
+  "gallery": [
+     "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen1.PNG",
+      "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen.PNG",
+      "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen2.PNG",
+       "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen3.PNG",
+        "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen4.PNG",
+         "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen6.PNG",
+          "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen7.PNG",
+           "https://raw.githubusercontent.com/m1ke1994/Ares-Site/main/src/assets/images/screen8.PNG"
+  ],
+  "learned": [
+    "Отработал проектирование адаптивных интерфейсов и компонентную структуру.",
+    "Оптимизировал сборку и загрузку для продакшена через Vite.",
+    "Проработал принципы визуальной иерархии и согласованности UI."
+  ]
+}
+
+  ]
+}
